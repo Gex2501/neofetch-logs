@@ -1,0 +1,1567 @@
++ verbose=on
++ shift
++ [[ -n --config ]]
++ case $1 in
++ case $2 in
++ shift
++ [[ -n none ]]
++ case $1 in
++ shift
++ [[ -n '' ]]
++ [[ on != on ]]
++ get_simple -vv --config none
++ [[ -n -vv ]]
+++ type -t get_-vv
++ [[ '' == \f\u\n\c\t\i\o\n ]]
++ shift
++ [[ -n --config ]]
+++ type -t get_--config
++ [[ '' == \f\u\n\c\t\i\o\n ]]
++ shift
++ [[ -n none ]]
+++ type -t get_none
++ [[ '' == \f\u\n\c\t\i\o\n ]]
++ shift
++ [[ -n '' ]]
++ (( simple ))
++ get_distro
++ [[ -n '' ]]
++ case $os in
++ case $osx_version in
++ codename=macOS
++ distro='macOS 12.1 21C52'
++ case $distro_shorthand in
++ distro='macOS 12.1 21C52'
++ [[ -n macOS 12.1 21C52 ]]
++ case $os in
++ machine_arch=arm64
++ [[ on == on ]]
++ distro+=' arm64'
++ [[ auto == auto ]]
+++ trim 'macOS 12.1 21C52 arm64'
+++ set -f
+++ set -- macOS 12.1 21C52 arm64
+++ printf '%s\n' 'macOS 12.1 21C52 arm64'
+++ set +f
++ ascii_distro='macOS 12.1 21C52 arm64'
++ get_bold
++ case $ascii_bold in
++ ascii_bold='\e[1m'
++ case $bold in
++ bold='\e[1m'
++ get_distro_ascii
++ case $(trim "$ascii_distro") in
+++ trim 'macOS 12.1 21C52 arm64'
+++ set -f
+++ set -- macOS 12.1 21C52 arm64
+++ printf '%s\n' 'macOS 12.1 21C52 arm64'
+++ set +f
++ set_colors 2 3 1 1 5 4
+++ color 2
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 2
++ c1='[0m[32m\e[1m'
+++ color 3
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 3
++ c2='[0m[33m\e[1m'
+++ color 1
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 1
++ c3='[0m[31m\e[1m'
+++ color 1
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 1
++ c4='[0m[31m\e[1m'
+++ color 5
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 5
++ c5='[0m[35m\e[1m'
+++ color 4
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 4
++ c6='[0m[34m\e[1m'
++ [[ '' != \o\f\f ]]
++ set_text_colors 2 3 1 1 5 4
++ [[ distro == \d\i\s\t\r\o ]]
+++ color 2
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 2
++ title_color='[0m[32m'
++ at_color='\e[0m'
++ underline_color='\e[0m'
+++ color 3
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 3
++ subtitle_color='[0m[33m'
++ colon_color='\e[0m'
++ info_color='\e[0m'
++ (( 2 == 8 ))
++ (( 3 == 8 ))
++ (( 3 == 7 ))
++ (( 2 == 7 ))
++ [[ distro == \d\i\s\t\r\o ]]
+++ color fg
+++ case $1 in
+++ printf '\e[37m%b' '\e[0m'
++ bar_color_elapsed='[37m[0m'
++ case ${bar_color_total}${1} in
+++ color 3
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 3
++ bar_color_total='[0m[33m'
++ read -rd '' ascii_data
++ [[ distro != distro ]]
++ [[ off == on ]]
++ [[ xterm-256color != minix ]]
++ [[ off != on ]]
++ trap 'printf "\e[?25h\e[?7h"' EXIT
++ printf '\e[?25l\e[?7l'
++ image_backend
++ [[ ascii != \o\f\f ]]
++ type -p convert
++ case ${image_backend:-off} in
++ print_ascii
++ [[ -f auto ]]
++ [[ auto == \a\s\c\i\i ]]
++ [[ auto == auto ]]
++ :
++ LC_ALL=en_US.UTF-8
++ IFS='
+'
++ read -r line
++ line='                    '\''c.'
++ line='                    '\''c.'
++ (( ++lines,23>ascii_len ))
++ ascii_len=23
++ IFS='
+'
++ read -r line
++ line='                 ,xNMM.'
++ line='                 ,xNMM.'
++ (( ++lines,23>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='               .OMMMMo'
++ line='               .OMMMMo'
++ (( ++lines,22>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='               OMMM0,'
++ line='               OMMM0,'
++ (( ++lines,21>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='     .;loddo:'\'' loolloddol;.'
++ line='     .;loddo:'\'' loolloddol;.'
++ (( ++lines,27>ascii_len ))
++ ascii_len=27
++ IFS='
+'
++ read -r line
++ line='   cKMMMMMMMMMMNWMMMMMMMMMM0:'
++ line='   cKMMMMMMMMMMNWMMMMMMMMMM0:'
++ (( ++lines,29>ascii_len ))
++ ascii_len=29
++ IFS='
+'
++ read -r line
++ line=' .KMMMMMMMMMMMMMMMMMMMMMMMWd.'
++ line=' .KMMMMMMMMMMMMMMMMMMMMMMMWd.'
++ (( ++lines,29>ascii_len ))
++ IFS='
+'
++ read -r line
++ line=' XMMMMMMMMMMMMMMMMMMMMMMMX.'
++ line=' XMMMMMMMMMMMMMMMMMMMMMMMX.'
++ (( ++lines,27>ascii_len ))
++ IFS='
+'
++ read -r line
++ line=';MMMMMMMMMMMMMMMMMMMMMMMM:'
++ line=';MMMMMMMMMMMMMMMMMMMMMMMM:'
++ (( ++lines,26>ascii_len ))
++ IFS='
+'
++ read -r line
++ line=:MMMMMMMMMMMMMMMMMMMMMMMM:
++ line=:MMMMMMMMMMMMMMMMMMMMMMMM:
++ (( ++lines,26>ascii_len ))
++ IFS='
+'
++ read -r line
++ line=.MMMMMMMMMMMMMMMMMMMMMMMMX.
++ line=.MMMMMMMMMMMMMMMMMMMMMMMMX.
++ (( ++lines,27>ascii_len ))
++ IFS='
+'
++ read -r line
++ line=' kMMMMMMMMMMMMMMMMMMMMMMMMWd.'
++ line=' kMMMMMMMMMMMMMMMMMMMMMMMMWd.'
++ (( ++lines,29>ascii_len ))
++ IFS='
+'
++ read -r line
++ line=' .XMMMMMMMMMMMMMMMMMMMMMMMMMMk'
++ line=' .XMMMMMMMMMMMMMMMMMMMMMMMMMMk'
++ (( ++lines,30>ascii_len ))
++ ascii_len=30
++ IFS='
+'
++ read -r line
++ line='  .XMMMMMMMMMMMMMMMMMMMMMMMMK.'
++ line='  .XMMMMMMMMMMMMMMMMMMMMMMMMK.'
++ (( ++lines,30>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='    kMMMMMMMMMMMMMMMMMMMMMMd'
++ line='    kMMMMMMMMMMMMMMMMMMMMMMd'
++ (( ++lines,28>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='     ;KMMMMMMMWXXWMMMMMMMk.'
++ line='     ;KMMMMMMMWXXWMMMMMMMk.'
++ (( ++lines,27>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='       .cooc,.    .,coo:.'
++ line='       .cooc,.    .,coo:.'
++ (( ++lines,25>ascii_len ))
++ IFS='
+'
++ read -r line
++ (( lines==1 ))
++ ascii_data='[0m[32m\e[1m                    '\''c.
+                 ,xNMM.
+               .OMMMMo
+               OMMM0,
+     .;loddo:'\'' loolloddol;.
+   cKMMMMMMMMMMNWMMMMMMMMMM0:
+${c2} .KMMMMMMMMMMMMMMMMMMMMMMMWd.
+ XMMMMMMMMMMMMMMMMMMMMMMMX.
+${c3};MMMMMMMMMMMMMMMMMMMMMMMM:
+:MMMMMMMMMMMMMMMMMMMMMMMM:
+${c4}.MMMMMMMMMMMMMMMMMMMMMMMMX.
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.
+ ${c5}.XMMMMMMMMMMMMMMMMMMMMMMMMMMk
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.
+    ${c6}kMMMMMMMMMMMMMMMMMMMMMMd
+     ;KMMMMMMMWXXWMMMMMMMk.
+       .cooc,.    .,coo:.'
++ ascii_data='[0m[32m\e[1m                    '\''c.
+                 ,xNMM.
+               .OMMMMo
+               OMMM0,
+     .;loddo:'\'' loolloddol;.
+   cKMMMMMMMMMMNWMMMMMMMMMM0:
+[0m[33m\e[1m .KMMMMMMMMMMMMMMMMMMMMMMMWd.
+ XMMMMMMMMMMMMMMMMMMMMMMMX.
+${c3};MMMMMMMMMMMMMMMMMMMMMMMM:
+:MMMMMMMMMMMMMMMMMMMMMMMM:
+${c4}.MMMMMMMMMMMMMMMMMMMMMMMMX.
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.
+ ${c5}.XMMMMMMMMMMMMMMMMMMMMMMMMMMk
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.
+    ${c6}kMMMMMMMMMMMMMMMMMMMMMMd
+     ;KMMMMMMMWXXWMMMMMMMk.
+       .cooc,.    .,coo:.'
++ ascii_data='[0m[32m\e[1m                    '\''c.
+                 ,xNMM.
+               .OMMMMo
+               OMMM0,
+     .;loddo:'\'' loolloddol;.
+   cKMMMMMMMMMMNWMMMMMMMMMM0:
+[0m[33m\e[1m .KMMMMMMMMMMMMMMMMMMMMMMMWd.
+ XMMMMMMMMMMMMMMMMMMMMMMMX.
+[0m[31m\e[1m;MMMMMMMMMMMMMMMMMMMMMMMM:
+:MMMMMMMMMMMMMMMMMMMMMMMM:
+${c4}.MMMMMMMMMMMMMMMMMMMMMMMMX.
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.
+ ${c5}.XMMMMMMMMMMMMMMMMMMMMMMMMMMk
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.
+    ${c6}kMMMMMMMMMMMMMMMMMMMMMMd
+     ;KMMMMMMMWXXWMMMMMMMk.
+       .cooc,.    .,coo:.'
++ ascii_data='[0m[32m\e[1m                    '\''c.
+                 ,xNMM.
+               .OMMMMo
+               OMMM0,
+     .;loddo:'\'' loolloddol;.
+   cKMMMMMMMMMMNWMMMMMMMMMM0:
+[0m[33m\e[1m .KMMMMMMMMMMMMMMMMMMMMMMMWd.
+ XMMMMMMMMMMMMMMMMMMMMMMMX.
+[0m[31m\e[1m;MMMMMMMMMMMMMMMMMMMMMMMM:
+:MMMMMMMMMMMMMMMMMMMMMMMM:
+[0m[31m\e[1m.MMMMMMMMMMMMMMMMMMMMMMMMX.
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.
+ ${c5}.XMMMMMMMMMMMMMMMMMMMMMMMMMMk
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.
+    ${c6}kMMMMMMMMMMMMMMMMMMMMMMd
+     ;KMMMMMMMWXXWMMMMMMMk.
+       .cooc,.    .,coo:.'
++ ascii_data='[0m[32m\e[1m                    '\''c.
+                 ,xNMM.
+               .OMMMMo
+               OMMM0,
+     .;loddo:'\'' loolloddol;.
+   cKMMMMMMMMMMNWMMMMMMMMMM0:
+[0m[33m\e[1m .KMMMMMMMMMMMMMMMMMMMMMMMWd.
+ XMMMMMMMMMMMMMMMMMMMMMMMX.
+[0m[31m\e[1m;MMMMMMMMMMMMMMMMMMMMMMMM:
+:MMMMMMMMMMMMMMMMMMMMMMMM:
+[0m[31m\e[1m.MMMMMMMMMMMMMMMMMMMMMMMMX.
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.
+ [0m[35m\e[1m.XMMMMMMMMMMMMMMMMMMMMMMMMMMk
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.
+    ${c6}kMMMMMMMMMMMMMMMMMMMMMMd
+     ;KMMMMMMMWXXWMMMMMMMk.
+       .cooc,.    .,coo:.'
++ ascii_data='[0m[32m\e[1m                    '\''c.
+                 ,xNMM.
+               .OMMMMo
+               OMMM0,
+     .;loddo:'\'' loolloddol;.
+   cKMMMMMMMMMMNWMMMMMMMMMM0:
+[0m[33m\e[1m .KMMMMMMMMMMMMMMMMMMMMMMMWd.
+ XMMMMMMMMMMMMMMMMMMMMMMMX.
+[0m[31m\e[1m;MMMMMMMMMMMMMMMMMMMMMMMM:
+:MMMMMMMMMMMMMMMMMMMMMMMM:
+[0m[31m\e[1m.MMMMMMMMMMMMMMMMMMMMMMMMX.
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.
+ [0m[35m\e[1m.XMMMMMMMMMMMMMMMMMMMMMMMMMMk
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.
+    [0m[34m\e[1mkMMMMMMMMMMMMMMMMMMMMMMd
+     ;KMMMMMMMWXXWMMMMMMMk.
+       .cooc,.    .,coo:.'
++ (( text_padding=ascii_len+gap ))
++ printf '%b\n' '[0m[32m\e[1m                    '\''c.
+                 ,xNMM.
+               .OMMMMo
+               OMMM0,
+     .;loddo:'\'' loolloddol;.
+   cKMMMMMMMMMMNWMMMMMMMMMM0:
+[0m[33m\e[1m .KMMMMMMMMMMMMMMMMMMMMMMMWd.
+ XMMMMMMMMMMMMMMMMMMMMMMMX.
+[0m[31m\e[1m;MMMMMMMMMMMMMMMMMMMMMMMM:
+:MMMMMMMMMMMMMMMMMMMMMMMM:
+[0m[31m\e[1m.MMMMMMMMMMMMMMMMMMMMMMMMX.
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.
+ [0m[35m\e[1m.XMMMMMMMMMMMMMMMMMMMMMMMMMMk
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.
+    [0m[34m\e[1mkMMMMMMMMMMMMMMMMMMMMMMd
+     ;KMMMMMMMWXXWMMMMMMMk.
+       .cooc,.    .,coo:.\e[0m'
++ LC_ALL=C
++ [[ ascii != \o\f\f ]]
++ printf '\e[%sA\e[9999999D' 17
++ get_cache_dir
++ case $os in
++ cache_dir=/Library/Caches
++ old_functions
++ print_info
++ info title
++ [[ -n '' ]]
++ unset -v prin
++ get_title
++ user=gestes
++ case $title_fqdn in
++ hostname=Ratchet-M1.local
++ title='[0m[32m\e[1mgestes\e[0m@[0m[32m\e[1mRatchet-M1.local'
++ length=23
++ [[ -n '' ]]
++ [[ -n '' ]]
+++ trim '[0m[32m\e[1mgestes\e[0m@[0m[32m\e[1mRatchet-M1.local'
+++ set -f
+++ set -- '[0m[32m\e[1mgestes\e[0m@[0m[32m\e[1mRatchet-M1.local'
+++ printf '%s\n' '[0m[32m\e[1mgestes\e[0m@[0m[32m\e[1mRatchet-M1.local'
+++ set +f
++ output='[0m[32m\e[1mgestes\e[0m@[0m[32m\e[1mRatchet-M1.local'
++ [[ -n '' ]]
++ [[ -n [0m[32m\e[1mgestes\e[0m@[0m[32m\e[1mRatchet-M1.local ]]
++ prin '[0m[32m\e[1mgestes\e[0m@[0m[32m\e[1mRatchet-M1.local'
+++ trim '[0m[32m\e[1mgestes\e[0m@[0m[32m\e[1mRatchet-M1.local'
+++ set -f
+++ set -- '[0m[32m\e[1mgestes\e[0m@[0m[32m\e[1mRatchet-M1.local'
+++ printf '%s\n' '[0m[32m\e[1mgestes\e[0m@[0m[32m\e[1mRatchet-M1.local'
+++ set +f
++ [[ -n [0m[32m\e[1mgestes\e[0m@[0m[32m\e[1mRatchet-M1.local ]]
++ [[ -n '' ]]
++ string='[0m[32m\e[1mgestes\e[0m@[0m[32m\e[1mRatchet-M1.local'
++ local 'subtitle_color=\e[0m'
+++ trim '[32m\e[1mgestes\e[0m@[32m\e[1mRatchet-M1.local'
+++ set -f
+++ set -- '[32m\e[1mgestes\e[0m@[32m\e[1mRatchet-M1.local'
+++ printf '%s\n' '[32m\e[1mgestes\e[0m@[32m\e[1mRatchet-M1.local'
+++ set +f
++ string='[32m\e[1mgestes\e[0m@[32m\e[1mRatchet-M1.local'
+++ strip_sequences '[32m\e[1mgestes\e[0m@[32m\e[1mRatchet-M1.local'
+++ strip='[32m\e[1mgestes\e[0m@[32m\e[1mRatchet-M1.local'
+++ strip='[32m\e[1mgestes\e[0m@[32m\e[1mRatchet-M1.local'
+++ strip='[32mgestes@[32mRatchet-M1.local'
+++ strip='[32mgestes@[32mRatchet-M1.local'
+++ strip='[32mgestes@[32mRatchet-M1.local'
+++ strip=gestes@Ratchet-M1.local
+++ printf '%s\n' gestes@Ratchet-M1.local
++ length=gestes@Ratchet-M1.local
++ length=23
++ string='[32m\e[1mgestes\e[0m@[32m\e[1mRatchet-M1.local'
++ string='\e[0m\e[1m[32m\e[1mgestes\e[0m@[32m\e[1mRatchet-M1.local'
++ printf '%b\n' '\e[33C\e[0m\e[1m[32m\e[1mgestes\e[0m@[32m\e[1mRatchet-M1.local\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info underline
++ [[ -n '' ]]
++ unset -v prin
++ get_underline
++ [[ on == \o\n ]]
++ printf -v underline %23s
++ printf '%b%b\n' '\e[33C\e[0m' '-----------------------\e[0m '
++ (( ++info_height ))
++ length=
++ prin=1
++ [[ -n 1 ]]
++ return
++ info OS distro
++ [[ -n distro ]]
++ subtitle=OS
++ unset -v prin
++ get_distro
++ [[ -n macOS 12.1 21C52 arm64 ]]
++ return
++ [[ -n '' ]]
++ [[ -n distro ]]
+++ trim 'macOS 12.1 21C52 arm64'
+++ set -f
+++ set -- macOS 12.1 21C52 arm64
+++ printf '%s\n' 'macOS 12.1 21C52 arm64'
+++ set +f
++ output='macOS 12.1 21C52 arm64'
++ [[ -n distro ]]
++ [[ -n macOS12.121C52arm64 ]]
++ prin OS 'macOS 12.1 21C52 arm64'
+++ trim OS
+++ set -f
+++ set -- OS
+++ printf '%s\n' OS
+++ set +f
++ [[ -n OS ]]
++ [[ -n macOS 12.1 21C52 arm64 ]]
++ [[ -n '' ]]
++ string='OS: macOS 12.1 21C52 arm64'
+++ trim 'OS: macOS 12.1 21C52 arm64'
+++ set -f
+++ set -- OS: macOS 12.1 21C52 arm64
+++ printf '%s\n' 'OS: macOS 12.1 21C52 arm64'
+++ set +f
++ string='OS: macOS 12.1 21C52 arm64'
+++ strip_sequences 'OS: macOS 12.1 21C52 arm64'
+++ strip='OS: macOS 12.1 21C52 arm64'
+++ strip='OS: macOS 12.1 21C52 arm64'
+++ strip='OS: macOS 12.1 21C52 arm64'
+++ strip='OS: macOS 12.1 21C52 arm64'
+++ strip='OS: macOS 12.1 21C52 arm64'
+++ strip='OS: macOS 12.1 21C52 arm64'
+++ printf '%s\n' 'OS: macOS 12.1 21C52 arm64'
++ length='OS: macOS 12.1 21C52 arm64'
++ length=26
++ string='OS\e[0m\e[0m:\e[0m macOS 12.1 21C52 arm64'
++ string='[0m[33m\e[1mOS\e[0m\e[0m:\e[0m macOS 12.1 21C52 arm64'
++ printf '%b\n' '\e[33C[0m[33m\e[1mOS\e[0m\e[0m:\e[0m macOS 12.1 21C52 arm64\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Host model
++ [[ -n model ]]
++ subtitle=Host
++ unset -v prin
++ get_model
++ case $os in
+++ kextstat
+++ grep -F -e FakeSMC -e VirtualSMC
+Executing: /usr/bin/kmutil showloaded
+No variant specified, falling back to release
++ [[ '' != '' ]]
+++ sysctl -n hw.model
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ model=MacBookPro18,2
++ case $model in
++ [[ -n '' ]]
++ [[ -n model ]]
+++ trim MacBookPro18,2
+++ set -f
+++ set -- MacBookPro18,2
+++ printf '%s\n' MacBookPro18,2
+++ set +f
++ output=MacBookPro18,2
++ [[ -n model ]]
++ [[ -n MacBookPro18,2 ]]
++ prin Host MacBookPro18,2
+++ trim Host
+++ set -f
+++ set -- Host
+++ printf '%s\n' Host
+++ set +f
++ [[ -n Host ]]
++ [[ -n MacBookPro18,2 ]]
++ [[ -n '' ]]
++ string='Host: MacBookPro18,2'
+++ trim 'Host: MacBookPro18,2'
+++ set -f
+++ set -- Host: MacBookPro18,2
+++ printf '%s\n' 'Host: MacBookPro18,2'
+++ set +f
++ string='Host: MacBookPro18,2'
+++ strip_sequences 'Host: MacBookPro18,2'
+++ strip='Host: MacBookPro18,2'
+++ strip='Host: MacBookPro18,2'
+++ strip='Host: MacBookPro18,2'
+++ strip='Host: MacBookPro18,2'
+++ strip='Host: MacBookPro18,2'
+++ strip='Host: MacBookPro18,2'
+++ printf '%s\n' 'Host: MacBookPro18,2'
++ length='Host: MacBookPro18,2'
++ length=20
++ string='Host\e[0m\e[0m:\e[0m MacBookPro18,2'
++ string='[0m[33m\e[1mHost\e[0m\e[0m:\e[0m MacBookPro18,2'
++ printf '%b\n' '\e[33C[0m[33m\e[1mHost\e[0m\e[0m:\e[0m MacBookPro18,2\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Kernel kernel
++ [[ -n kernel ]]
++ subtitle=Kernel
++ unset -v prin
++ get_kernel
++ [[ macOS =~ (AIX|IRIX) ]]
++ [[ macOS == Haiku ]]
++ [[ macOS == Windows ]]
++ case $kernel_shorthand in
++ kernel=21.2.0
++ [[ macOS =~ (BSD|MINIX) ]]
++ [[ -n '' ]]
++ [[ -n kernel ]]
+++ trim 21.2.0
+++ set -f
+++ set -- 21.2.0
+++ printf '%s\n' 21.2.0
+++ set +f
++ output=21.2.0
++ [[ -n kernel ]]
++ [[ -n 21.2.0 ]]
++ prin Kernel 21.2.0
+++ trim Kernel
+++ set -f
+++ set -- Kernel
+++ printf '%s\n' Kernel
+++ set +f
++ [[ -n Kernel ]]
++ [[ -n 21.2.0 ]]
++ [[ -n '' ]]
++ string='Kernel: 21.2.0'
+++ trim 'Kernel: 21.2.0'
+++ set -f
+++ set -- Kernel: 21.2.0
+++ printf '%s\n' 'Kernel: 21.2.0'
+++ set +f
++ string='Kernel: 21.2.0'
+++ strip_sequences 'Kernel: 21.2.0'
+++ strip='Kernel: 21.2.0'
+++ strip='Kernel: 21.2.0'
+++ strip='Kernel: 21.2.0'
+++ strip='Kernel: 21.2.0'
+++ strip='Kernel: 21.2.0'
+++ strip='Kernel: 21.2.0'
+++ printf '%s\n' 'Kernel: 21.2.0'
++ length='Kernel: 21.2.0'
++ length=14
++ string='Kernel\e[0m\e[0m:\e[0m 21.2.0'
++ string='[0m[33m\e[1mKernel\e[0m\e[0m:\e[0m 21.2.0'
++ printf '%b\n' '\e[33C[0m[33m\e[1mKernel\e[0m\e[0m:\e[0m 21.2.0\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Uptime uptime
++ [[ -n uptime ]]
++ subtitle=Uptime
++ unset -v prin
++ get_uptime
++ case $os in
+++ sysctl -n kern.boottime
++ boot='{ sec = 1641893524, usec = 273267 } Tue Jan 11 01:32:04 2022'
++ boot='1641893524, usec = 273267 } Tue Jan 11 01:32:04 2022'
++ boot=1641893524
+++ date +%s
++ now=1644000720
++ s=2107196
++ d='24 days'
++ h='9 hours'
++ m='19 mins'
++ (( 24 == 1 ))
++ (( 9 == 1 ))
++ (( 19 == 1 ))
++ (( 24 == 0 ))
++ (( 9 == 0 ))
++ (( 19 == 0 ))
++ uptime='24 days, 9 hours, 19 mins'
++ uptime='24 days, 9 hours, 19 mins'
++ uptime='24 days, 9 hours, 19 mins'
++ case $uptime_shorthand in
++ [[ -n '' ]]
++ [[ -n uptime ]]
+++ trim '24 days, 9 hours, 19 mins'
+++ set -f
+++ set -- 24 days, 9 hours, 19 mins
+++ printf '%s\n' '24 days, 9 hours, 19 mins'
+++ set +f
++ output='24 days, 9 hours, 19 mins'
++ [[ -n uptime ]]
++ [[ -n 24days,9hours,19mins ]]
++ prin Uptime '24 days, 9 hours, 19 mins'
+++ trim Uptime
+++ set -f
+++ set -- Uptime
+++ printf '%s\n' Uptime
+++ set +f
++ [[ -n Uptime ]]
++ [[ -n 24 days, 9 hours, 19 mins ]]
++ [[ -n '' ]]
++ string='Uptime: 24 days, 9 hours, 19 mins'
+++ trim 'Uptime: 24 days, 9 hours, 19 mins'
+++ set -f
+++ set -- Uptime: 24 days, 9 hours, 19 mins
+++ printf '%s\n' 'Uptime: 24 days, 9 hours, 19 mins'
+++ set +f
++ string='Uptime: 24 days, 9 hours, 19 mins'
+++ strip_sequences 'Uptime: 24 days, 9 hours, 19 mins'
+++ strip='Uptime: 24 days, 9 hours, 19 mins'
+++ strip='Uptime: 24 days, 9 hours, 19 mins'
+++ strip='Uptime: 24 days, 9 hours, 19 mins'
+++ strip='Uptime: 24 days, 9 hours, 19 mins'
+++ strip='Uptime: 24 days, 9 hours, 19 mins'
+++ strip='Uptime: 24 days, 9 hours, 19 mins'
+++ printf '%s\n' 'Uptime: 24 days, 9 hours, 19 mins'
++ length='Uptime: 24 days, 9 hours, 19 mins'
++ length=33
++ string='Uptime\e[0m\e[0m:\e[0m 24 days, 9 hours, 19 mins'
++ string='[0m[33m\e[1mUptime\e[0m\e[0m:\e[0m 24 days, 9 hours, 19 mins'
++ printf '%b\n' '\e[33C[0m[33m\e[1mUptime\e[0m\e[0m:\e[0m 24 days, 9 hours, 19 mins\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Packages packages
++ [[ -n packages ]]
++ subtitle=Packages
++ unset -v prin
++ get_packages
++ [[ -f /bedrock/etc/bedrock-release ]]
++ case $os in
++ has port
++ type -p port
++ has brew
++ type -p brew
++ manager=brew
++ dir /opt/homebrew/Cellar/aom /opt/homebrew/Cellar/autojump /opt/homebrew/Cellar/bdw-gc /opt/homebrew/Cellar/berkeley-db /opt/homebrew/Cellar/blink1 /opt/homebrew/Cellar/brotli /opt/homebrew/Cellar/ca-certificates /opt/homebrew/Cellar/cairo /opt/homebrew/Cellar/cfv /opt/homebrew/Cellar/cjson /opt/homebrew/Cellar/cmocka /opt/homebrew/Cellar/coreutils /opt/homebrew/Cellar/curl /opt/homebrew/Cellar/dav1d /opt/homebrew/Cellar/docbook /opt/homebrew/Cellar/docbook-xsl /opt/homebrew/Cellar/ffmpeg /opt/homebrew/Cellar/findutils /opt/homebrew/Cellar/flac /opt/homebrew/Cellar/fontconfig /opt/homebrew/Cellar/freetype /opt/homebrew/Cellar/frei0r /opt/homebrew/Cellar/fribidi /opt/homebrew/Cellar/gdbm /opt/homebrew/Cellar/gettext /opt/homebrew/Cellar/ghostscript /opt/homebrew/Cellar/giflib /opt/homebrew/Cellar/git /opt/homebrew/Cellar/glib /opt/homebrew/Cellar/gmp /opt/homebrew/Cellar/gnu-getopt /opt/homebrew/Cellar/gnu-sed /opt/homebrew/Cellar/gnu-tar /opt/homebrew/Cellar/gnutls /opt/homebrew/Cellar/gobject-introspection /opt/homebrew/Cellar/graphite2 /opt/homebrew/Cellar/guile /opt/homebrew/Cellar/harfbuzz /opt/homebrew/Cellar/icu4c /opt/homebrew/Cellar/imagemagick /opt/homebrew/Cellar/imath /opt/homebrew/Cellar/jbig2dec /opt/homebrew/Cellar/jpeg /opt/homebrew/Cellar/jpeg-xl /opt/homebrew/Cellar/lame /opt/homebrew/Cellar/leptonica /opt/homebrew/Cellar/less /opt/homebrew/Cellar/libarchive /opt/homebrew/Cellar/libass /opt/homebrew/Cellar/libb2 /opt/homebrew/Cellar/libbluray /opt/homebrew/Cellar/libde265 /opt/homebrew/Cellar/libevent /opt/homebrew/Cellar/libffi /opt/homebrew/Cellar/libheif /opt/homebrew/Cellar/libidn /opt/homebrew/Cellar/libidn2 /opt/homebrew/Cellar/liblqr /opt/homebrew/Cellar/libnghttp2 /opt/homebrew/Cellar/libogg /opt/homebrew/Cellar/libomp /opt/homebrew/Cellar/libpng /opt/homebrew/Cellar/libpthread-stubs /opt/homebrew/Cellar/librist /opt/homebrew/Cellar/libsamplerate /opt/homebrew/Cellar/libsndfile /opt/homebrew/Cellar/libsodium /opt/homebrew/Cellar/libsoxr /opt/homebrew/Cellar/libssh2 /opt/homebrew/Cellar/libtasn1 /opt/homebrew/Cellar/libtiff /opt/homebrew/Cellar/libtool /opt/homebrew/Cellar/libunistring /opt/homebrew/Cellar/libvidstab /opt/homebrew/Cellar/libvmaf /opt/homebrew/Cellar/libvorbis /opt/homebrew/Cellar/libvpx /opt/homebrew/Cellar/libx11 /opt/homebrew/Cellar/libxau /opt/homebrew/Cellar/libxcb /opt/homebrew/Cellar/libxdmcp /opt/homebrew/Cellar/libxext /opt/homebrew/Cellar/libxrender /opt/homebrew/Cellar/libyaml /opt/homebrew/Cellar/little-cms2 /opt/homebrew/Cellar/lua /opt/homebrew/Cellar/lz4 /opt/homebrew/Cellar/lzo /opt/homebrew/Cellar/m4 /opt/homebrew/Cellar/mbedtls /opt/homebrew/Cellar/midnight-commander /opt/homebrew/Cellar/mosh /opt/homebrew/Cellar/most /opt/homebrew/Cellar/mpdecimal /opt/homebrew/Cellar/ncurses /opt/homebrew/Cellar/neofetch /opt/homebrew/Cellar/nettle /opt/homebrew/Cellar/opencore-amr /opt/homebrew/Cellar/openexr /opt/homebrew/Cellar/openjpeg /opt/homebrew/Cellar/openldap /opt/homebrew/Cellar/openssl@1.1 /opt/homebrew/Cellar/opus /opt/homebrew/Cellar/p11-kit /opt/homebrew/Cellar/pcre /opt/homebrew/Cellar/pcre2 /opt/homebrew/Cellar/perl /opt/homebrew/Cellar/pixman /opt/homebrew/Cellar/pkg-config /opt/homebrew/Cellar/powerlevel10k /opt/homebrew/Cellar/protobuf /opt/homebrew/Cellar/python@3.10 /opt/homebrew/Cellar/python@3.9 /opt/homebrew/Cellar/rav1e /opt/homebrew/Cellar/readline /opt/homebrew/Cellar/reattach-to-user-namespace /opt/homebrew/Cellar/rtmpdump /opt/homebrew/Cellar/rubberband /opt/homebrew/Cellar/ruby /opt/homebrew/Cellar/s-lang /opt/homebrew/Cellar/screenresolution /opt/homebrew/Cellar/sdl2 /opt/homebrew/Cellar/shared-mime-info /opt/homebrew/Cellar/six /opt/homebrew/Cellar/snappy /opt/homebrew/Cellar/speex /opt/homebrew/Cellar/sqlite /opt/homebrew/Cellar/srt /opt/homebrew/Cellar/tesseract /opt/homebrew/Cellar/theora /opt/homebrew/Cellar/tmux /opt/homebrew/Cellar/tmuxinator /opt/homebrew/Cellar/unar /opt/homebrew/Cellar/unbound /opt/homebrew/Cellar/unison /opt/homebrew/Cellar/utf8proc /opt/homebrew/Cellar/vim /opt/homebrew/Cellar/watch /opt/homebrew/Cellar/webp /opt/homebrew/Cellar/wget /opt/homebrew/Cellar/x264 /opt/homebrew/Cellar/x265 /opt/homebrew/Cellar/xmlto /opt/homebrew/Cellar/xorgproto /opt/homebrew/Cellar/xvid /opt/homebrew/Cellar/xz /opt/homebrew/Cellar/z /opt/homebrew/Cellar/zeromq /opt/homebrew/Cellar/zimg /opt/homebrew/Cellar/zsh /opt/homebrew/Cellar/zsh-autosuggestions /opt/homebrew/Cellar/zsh-completions /opt/homebrew/Cellar/zsh-syntax-highlighting /opt/homebrew/Cellar/zstd
++ (( packages+=154 ))
++ pac 154
++ (( 154 > 0 ))
++ managers+=("$1 (${manager})")
++ manager_string+='brew, '
++ has pkgin
++ type -p pkgin
++ has nix-store
++ type -p nix-store
++ (( packages == 0 ))
++ [[ on == on ]]
++ printf -v packages '%s, ' '154 (brew)'
++ packages='154 (brew)'
++ packages='154 (brew)'
++ [[ -n '' ]]
++ [[ -n packages ]]
+++ trim '154 (brew)'
+++ set -f
+++ set -- 154 '(brew)'
+++ printf '%s\n' '154 (brew)'
+++ set +f
++ output='154 (brew)'
++ [[ -n packages ]]
++ [[ -n 154(brew) ]]
++ prin Packages '154 (brew)'
+++ trim Packages
+++ set -f
+++ set -- Packages
+++ printf '%s\n' Packages
+++ set +f
++ [[ -n Packages ]]
++ [[ -n 154 (brew) ]]
++ [[ -n '' ]]
++ string='Packages: 154 (brew)'
+++ trim 'Packages: 154 (brew)'
+++ set -f
+++ set -- Packages: 154 '(brew)'
+++ printf '%s\n' 'Packages: 154 (brew)'
+++ set +f
++ string='Packages: 154 (brew)'
+++ strip_sequences 'Packages: 154 (brew)'
+++ strip='Packages: 154 (brew)'
+++ strip='Packages: 154 (brew)'
+++ strip='Packages: 154 (brew)'
+++ strip='Packages: 154 (brew)'
+++ strip='Packages: 154 (brew)'
+++ strip='Packages: 154 (brew)'
+++ printf '%s\n' 'Packages: 154 (brew)'
++ length='Packages: 154 (brew)'
++ length=20
++ string='Packages\e[0m\e[0m:\e[0m 154 (brew)'
++ string='[0m[33m\e[1mPackages\e[0m\e[0m:\e[0m 154 (brew)'
++ printf '%b\n' '\e[33C[0m[33m\e[1mPackages\e[0m\e[0m:\e[0m 154 (brew)\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Shell shell
++ [[ -n shell ]]
++ subtitle=Shell
++ unset -v prin
++ get_shell
++ case $shell_path in
++ shell='zsh '
++ [[ on != on ]]
++ case ${shell_name:=${SHELL##*/}} in
+++ /opt/homebrew/bin/zsh --version
++ shell+='zsh 5.8 (arm-apple-darwin21.1.0)'
++ shell='zsh 5.8 (arm-apple-darwin21.1.0)'
++ shell='zsh 5.8 (arm-apple-darwin21.1.0)'
++ shell='zsh 5.8 (arm-apple-darwin21.1.0)'
++ shell='zsh 5.8 (arm-apple-darwin21.1.0)'
++ shell='zsh 5.8 '
++ [[ -n '' ]]
++ [[ -n shell ]]
+++ trim 'zsh 5.8 '
+++ set -f
+++ set -- zsh 5.8
+++ printf '%s\n' 'zsh 5.8'
+++ set +f
++ output='zsh 5.8'
++ [[ -n shell ]]
++ [[ -n zsh5.8 ]]
++ prin Shell 'zsh 5.8'
+++ trim Shell
+++ set -f
+++ set -- Shell
+++ printf '%s\n' Shell
+++ set +f
++ [[ -n Shell ]]
++ [[ -n zsh 5.8 ]]
++ [[ -n '' ]]
++ string='Shell: zsh 5.8'
+++ trim 'Shell: zsh 5.8'
+++ set -f
+++ set -- Shell: zsh 5.8
+++ printf '%s\n' 'Shell: zsh 5.8'
+++ set +f
++ string='Shell: zsh 5.8'
+++ strip_sequences 'Shell: zsh 5.8'
+++ strip='Shell: zsh 5.8'
+++ strip='Shell: zsh 5.8'
+++ strip='Shell: zsh 5.8'
+++ strip='Shell: zsh 5.8'
+++ strip='Shell: zsh 5.8'
+++ strip='Shell: zsh 5.8'
+++ printf '%s\n' 'Shell: zsh 5.8'
++ length='Shell: zsh 5.8'
++ length=14
++ string='Shell\e[0m\e[0m:\e[0m zsh 5.8'
++ string='[0m[33m\e[1mShell\e[0m\e[0m:\e[0m zsh 5.8'
++ printf '%b\n' '\e[33C[0m[33m\e[1mShell\e[0m\e[0m:\e[0m zsh 5.8\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Resolution resolution
++ [[ -n resolution ]]
++ subtitle=Resolution
++ unset -v prin
++ get_resolution
++ case $os in
++ type -p screenresolution
+++ screenresolution get
+++ awk '/Display/ {printf $6 "Hz, "}'
++ resolution='1920x1080x32@100Hz, 1168x755x32@120Hz, '
++ resolution='1920x1080 @ 100Hz, 1168x755 @ 120Hz, '
++ [[ -e /Library/Preferences/com.apple.windowserver.plist ]]
++ scale_factor=
++ [[ 1920x1080 @ 100Hz, 1168x755 @ 120Hz,  == *\@\ \H\z* ]]
++ [[ '' == 2 ]]
++ [[ off == \o\f\f ]]
++ resolution='1920x1080 @ 100Hz, 1168x755 @ 120Hz, '
++ resolution='1920x1080, 1168x755, '
++ [[ 1920x1080, 1168x755,  == *\0\H\z* ]]
++ resolution='1920x1080, 1168x755'
++ [[ -z 19201080, 1168x755 ]]
++ [[ -n '' ]]
++ [[ -n resolution ]]
+++ trim '1920x1080, 1168x755'
+++ set -f
+++ set -- 1920x1080, 1168x755
+++ printf '%s\n' '1920x1080, 1168x755'
+++ set +f
++ output='1920x1080, 1168x755'
++ [[ -n resolution ]]
++ [[ -n 1920x1080,1168x755 ]]
++ prin Resolution '1920x1080, 1168x755'
+++ trim Resolution
+++ set -f
+++ set -- Resolution
+++ printf '%s\n' Resolution
+++ set +f
++ [[ -n Resolution ]]
++ [[ -n 1920x1080, 1168x755 ]]
++ [[ -n '' ]]
++ string='Resolution: 1920x1080, 1168x755'
+++ trim 'Resolution: 1920x1080, 1168x755'
+++ set -f
+++ set -- Resolution: 1920x1080, 1168x755
+++ printf '%s\n' 'Resolution: 1920x1080, 1168x755'
+++ set +f
++ string='Resolution: 1920x1080, 1168x755'
+++ strip_sequences 'Resolution: 1920x1080, 1168x755'
+++ strip='Resolution: 1920x1080, 1168x755'
+++ strip='Resolution: 1920x1080, 1168x755'
+++ strip='Resolution: 1920x1080, 1168x755'
+++ strip='Resolution: 1920x1080, 1168x755'
+++ strip='Resolution: 1920x1080, 1168x755'
+++ strip='Resolution: 1920x1080, 1168x755'
+++ printf '%s\n' 'Resolution: 1920x1080, 1168x755'
++ length='Resolution: 1920x1080, 1168x755'
++ length=31
++ string='Resolution\e[0m\e[0m:\e[0m 1920x1080, 1168x755'
++ string='[0m[33m\e[1mResolution\e[0m\e[0m:\e[0m 1920x1080, 1168x755'
++ printf '%b\n' '\e[33C[0m[33m\e[1mResolution\e[0m\e[0m:\e[0m 1920x1080, 1168x755\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info DE de
++ [[ -n de ]]
++ subtitle=DE
++ unset -v prin
++ get_de
++ (( de_run == 1 ))
++ case $os in
++ de=Aqua
++ [[ -n '' ]]
++ case $de in
++ (( 0 >= 4 ))
++ [[ on == on ]]
++ [[ -n Aqua ]]
++ case $de in
++ de_ver=
++ de_ver=
++ de_ver=
++ de_ver=
++ de_ver=
++ de_ver=
++ de_ver=
++ de='Aqua '
++ de_run=1
++ [[ -n '' ]]
++ [[ -n de ]]
+++ trim 'Aqua '
+++ set -f
+++ set -- Aqua
+++ printf '%s\n' Aqua
+++ set +f
++ output=Aqua
++ [[ -n de ]]
++ [[ -n Aqua ]]
++ prin DE Aqua
+++ trim DE
+++ set -f
+++ set -- DE
+++ printf '%s\n' DE
+++ set +f
++ [[ -n DE ]]
++ [[ -n Aqua ]]
++ [[ -n '' ]]
++ string='DE: Aqua'
+++ trim 'DE: Aqua'
+++ set -f
+++ set -- DE: Aqua
+++ printf '%s\n' 'DE: Aqua'
+++ set +f
++ string='DE: Aqua'
+++ strip_sequences 'DE: Aqua'
+++ strip='DE: Aqua'
+++ strip='DE: Aqua'
+++ strip='DE: Aqua'
+++ strip='DE: Aqua'
+++ strip='DE: Aqua'
+++ strip='DE: Aqua'
+++ printf '%s\n' 'DE: Aqua'
++ length='DE: Aqua'
++ length=8
++ string='DE\e[0m\e[0m:\e[0m Aqua'
++ string='[0m[33m\e[1mDE\e[0m\e[0m:\e[0m Aqua'
++ printf '%b\n' '\e[33C[0m[33m\e[1mDE\e[0m\e[0m:\e[0m Aqua\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info WM wm
++ [[ -n wm ]]
++ subtitle=WM
++ unset -v prin
++ get_wm
++ (( wm_run == 1 ))
++ case $kernel_name in
++ ps_flags=(-e)
++ [[ -n '' ]]
++ [[ -n '' ]]
++ case $os in
+++ ps -e
+++ grep -o -e '[S]pectacle' -e '[A]methyst' -e '[k]wm' -e '[c]hun[k]wm' -e '[y]abai' -e '[R]ectangle'
++ ps_line=
++ case $ps_line in
++ wm='Quartz Compositor'
++ [[ Quartz Compositor == *WINDOWMAKER* ]]
++ [[ Quartz Compositor == *GNOME*Shell* ]]
++ wm_run=1
++ [[ -n '' ]]
++ [[ -n wm ]]
+++ trim 'Quartz Compositor'
+++ set -f
+++ set -- Quartz Compositor
+++ printf '%s\n' 'Quartz Compositor'
+++ set +f
++ output='Quartz Compositor'
++ [[ -n wm ]]
++ [[ -n QuartzCompositor ]]
++ prin WM 'Quartz Compositor'
+++ trim WM
+++ set -f
+++ set -- WM
+++ printf '%s\n' WM
+++ set +f
++ [[ -n WM ]]
++ [[ -n Quartz Compositor ]]
++ [[ -n '' ]]
++ string='WM: Quartz Compositor'
+++ trim 'WM: Quartz Compositor'
+++ set -f
+++ set -- WM: Quartz Compositor
+++ printf '%s\n' 'WM: Quartz Compositor'
+++ set +f
++ string='WM: Quartz Compositor'
+++ strip_sequences 'WM: Quartz Compositor'
+++ strip='WM: Quartz Compositor'
+++ strip='WM: Quartz Compositor'
+++ strip='WM: Quartz Compositor'
+++ strip='WM: Quartz Compositor'
+++ strip='WM: Quartz Compositor'
+++ strip='WM: Quartz Compositor'
+++ printf '%s\n' 'WM: Quartz Compositor'
++ length='WM: Quartz Compositor'
++ length=21
++ string='WM\e[0m\e[0m:\e[0m Quartz Compositor'
++ string='[0m[33m\e[1mWM\e[0m\e[0m:\e[0m Quartz Compositor'
++ printf '%b\n' '\e[33C[0m[33m\e[1mWM\e[0m\e[0m:\e[0m Quartz Compositor\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info 'WM Theme' wm_theme
++ [[ -n wm_theme ]]
++ subtitle='WM Theme'
++ unset -v prin
++ get_wm_theme
++ (( wm_run != 1 ))
++ (( de_run != 1 ))
++ case $wm in
++ global_preferences=/Users/gestes/Library/Preferences/.GlobalPreferences.plist
+++ PlistBuddy -c 'Print AppleInterfaceStyle' /Users/gestes/Library/Preferences/.GlobalPreferences.plist
+Print: Entry, "AppleInterfaceStyle", Does Not Exist
++ wm_theme=
+++ PlistBuddy -c 'Print AppleAccentColor' /Users/gestes/Library/Preferences/.GlobalPreferences.plist
+Print: Entry, "AppleAccentColor", Does Not Exist
++ wm_theme_color=
++ [[ -n '' ]]
++ wm_theme=Light
++ case $wm_theme_color in
++ wm_theme_color=Blue
++ wm_theme='Blue (Light)'
+++ trim_quotes 'Blue (Light)'
+++ trim_output='Blue (Light)'
+++ trim_output='Blue (Light)'
+++ printf %s 'Blue (Light)'
++ wm_theme='Blue (Light)'
++ [[ -n '' ]]
++ [[ -n wm_theme ]]
+++ trim 'Blue (Light)'
+++ set -f
+++ set -- Blue '(Light)'
+++ printf '%s\n' 'Blue (Light)'
+++ set +f
++ output='Blue (Light)'
++ [[ -n wm_theme ]]
++ [[ -n Blue(Light) ]]
++ prin 'WM Theme' 'Blue (Light)'
+++ trim 'WM Theme'
+++ set -f
+++ set -- WM Theme
+++ printf '%s\n' 'WM Theme'
+++ set +f
++ [[ -n WM Theme ]]
++ [[ -n Blue (Light) ]]
++ [[ -n '' ]]
++ string='WM Theme: Blue (Light)'
+++ trim 'WM Theme: Blue (Light)'
+++ set -f
+++ set -- WM Theme: Blue '(Light)'
+++ printf '%s\n' 'WM Theme: Blue (Light)'
+++ set +f
++ string='WM Theme: Blue (Light)'
+++ strip_sequences 'WM Theme: Blue (Light)'
+++ strip='WM Theme: Blue (Light)'
+++ strip='WM Theme: Blue (Light)'
+++ strip='WM Theme: Blue (Light)'
+++ strip='WM Theme: Blue (Light)'
+++ strip='WM Theme: Blue (Light)'
+++ strip='WM Theme: Blue (Light)'
+++ printf '%s\n' 'WM Theme: Blue (Light)'
++ length='WM Theme: Blue (Light)'
++ length=22
++ string='WM Theme\e[0m\e[0m:\e[0m Blue (Light)'
++ string='[0m[33m\e[1mWM Theme\e[0m\e[0m:\e[0m Blue (Light)'
++ printf '%b\n' '\e[33C[0m[33m\e[1mWM Theme\e[0m\e[0m:\e[0m Blue (Light)\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Theme theme
++ [[ -n theme ]]
++ subtitle=Theme
++ unset -v prin
++ get_theme
++ name=gtk-theme-name
++ gsettings=gtk-theme
++ gconf=gtk_theme
++ xfconf=/Net/ThemeName
++ kde=Name
++ get_style
++ unset gtk2_theme gtk3_theme theme path
++ [[ -n '' ]]
++ [[ -n '' ]]
++ [[ -n theme ]]
+++ trim ''
+++ set -f
+++ set --
+++ printf '%s\n' ''
+++ set +f
++ output=
++ [[ -n theme ]]
++ [[ -n '' ]]
++ [[ -n '' ]]
++ err 'Info: Couldn'\''t detect Theme.'
+++ color 1
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 1
++ err+='[0m[31m[!]\e[0m Info: Couldn'\''t detect Theme.
+'
++ unset -v subtitle
++ info Icons icons
++ [[ -n icons ]]
++ subtitle=Icons
++ unset -v prin
++ get_icons
++ name=gtk-icon-theme-name
++ gsettings=icon-theme
++ gconf=icon_theme
++ xfconf=/Net/IconThemeName
++ kde=Theme
++ get_style
++ unset gtk2_theme gtk3_theme theme path
++ [[ -n '' ]]
++ icons=
++ [[ -n '' ]]
++ [[ -n icons ]]
+++ trim ''
+++ set -f
+++ set --
+++ printf '%s\n' ''
+++ set +f
++ output=
++ [[ -n icons ]]
++ [[ -n '' ]]
++ [[ -n '' ]]
++ err 'Info: Couldn'\''t detect Icons.'
+++ color 1
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 1
++ err+='[0m[31m[!]\e[0m Info: Couldn'\''t detect Icons.
+'
++ unset -v subtitle
++ info Terminal term
++ [[ -n term ]]
++ subtitle=Terminal
++ unset -v prin
++ get_term
++ (( term_run == 1 ))
++ case $TERM_PROGRAM in
++ term=iTerm2
++ [[ xterm-256color == \t\w\5\2 ]]
++ [[ xterm-256color == \t\w\1\0\0 ]]
++ [[ -n '' ]]
++ [[ -n '' ]]
++ [[ -z iTerm2 ]]
++ term_run=1
++ [[ -n '' ]]
++ [[ -n term ]]
+++ trim iTerm2
+++ set -f
+++ set -- iTerm2
+++ printf '%s\n' iTerm2
+++ set +f
++ output=iTerm2
++ [[ -n term ]]
++ [[ -n iTerm2 ]]
++ prin Terminal iTerm2
+++ trim Terminal
+++ set -f
+++ set -- Terminal
+++ printf '%s\n' Terminal
+++ set +f
++ [[ -n Terminal ]]
++ [[ -n iTerm2 ]]
++ [[ -n '' ]]
++ string='Terminal: iTerm2'
+++ trim 'Terminal: iTerm2'
+++ set -f
+++ set -- Terminal: iTerm2
+++ printf '%s\n' 'Terminal: iTerm2'
+++ set +f
++ string='Terminal: iTerm2'
+++ strip_sequences 'Terminal: iTerm2'
+++ strip='Terminal: iTerm2'
+++ strip='Terminal: iTerm2'
+++ strip='Terminal: iTerm2'
+++ strip='Terminal: iTerm2'
+++ strip='Terminal: iTerm2'
+++ strip='Terminal: iTerm2'
+++ printf '%s\n' 'Terminal: iTerm2'
++ length='Terminal: iTerm2'
++ length=16
++ string='Terminal\e[0m\e[0m:\e[0m iTerm2'
++ string='[0m[33m\e[1mTerminal\e[0m\e[0m:\e[0m iTerm2'
++ printf '%b\n' '\e[33C[0m[33m\e[1mTerminal\e[0m\e[0m:\e[0m iTerm2\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info 'Terminal Font' term_font
++ [[ -n term_font ]]
++ subtitle='Terminal Font'
++ unset -v prin
++ get_term_font
++ (( term_run != 1 ))
++ case $term in
++ local current_profile_name profiles_count profile_name diff_font
+++ osascript
++ current_profile_name=Default
++ font_file=/Users/gestes/Library/Preferences/com.googlecode.iterm2.plist
+++ PlistBuddy -c 'Print '\'':New Bookmarks:'\''' /Users/gestes/Library/Preferences/com.googlecode.iterm2.plist
+++ grep -w -c Guid
++ profiles_count=2
++ (( i=0 ))
++ (( i<profiles_count ))
+++ PlistBuddy -c 'Print '\'':New Bookmarks:0:Name:'\''' /Users/gestes/Library/Preferences/com.googlecode.iterm2.plist
++ profile_name=Default
++ [[ Default == \D\e\f\a\u\l\t ]]
+++ PlistBuddy -c 'Print '\'':New Bookmarks:0:Normal Font:'\''' /Users/gestes/Library/Preferences/com.googlecode.iterm2.plist
++ term_font='MesloLGS-NF-Regular 18'
+++ PlistBuddy -c 'Print '\'':New Bookmarks:0:Use Non-ASCII Font:'\''' /Users/gestes/Library/Preferences/com.googlecode.iterm2.plist
++ diff_font=false
++ [[ false == \t\r\u\e ]]
++ (( i++ ))
++ (( i<profiles_count ))
+++ PlistBuddy -c 'Print '\'':New Bookmarks:1:Name:'\''' /Users/gestes/Library/Preferences/com.googlecode.iterm2.plist
++ profile_name='Hotkey Window'
++ [[ Hotkey Window == \D\e\f\a\u\l\t ]]
++ (( i++ ))
++ (( i<profiles_count ))
++ [[ -n '' ]]
++ [[ -n term_font ]]
+++ trim 'MesloLGS-NF-Regular 18'
+++ set -f
+++ set -- MesloLGS-NF-Regular 18
+++ printf '%s\n' 'MesloLGS-NF-Regular 18'
+++ set +f
++ output='MesloLGS-NF-Regular 18'
++ [[ -n term_font ]]
++ [[ -n MesloLGS-NF-Regular18 ]]
++ prin 'Terminal Font' 'MesloLGS-NF-Regular 18'
+++ trim 'Terminal Font'
+++ set -f
+++ set -- Terminal Font
+++ printf '%s\n' 'Terminal Font'
+++ set +f
++ [[ -n Terminal Font ]]
++ [[ -n MesloLGS-NF-Regular 18 ]]
++ [[ -n '' ]]
++ string='Terminal Font: MesloLGS-NF-Regular 18'
+++ trim 'Terminal Font: MesloLGS-NF-Regular 18'
+++ set -f
+++ set -- Terminal Font: MesloLGS-NF-Regular 18
+++ printf '%s\n' 'Terminal Font: MesloLGS-NF-Regular 18'
+++ set +f
++ string='Terminal Font: MesloLGS-NF-Regular 18'
+++ strip_sequences 'Terminal Font: MesloLGS-NF-Regular 18'
+++ strip='Terminal Font: MesloLGS-NF-Regular 18'
+++ strip='Terminal Font: MesloLGS-NF-Regular 18'
+++ strip='Terminal Font: MesloLGS-NF-Regular 18'
+++ strip='Terminal Font: MesloLGS-NF-Regular 18'
+++ strip='Terminal Font: MesloLGS-NF-Regular 18'
+++ strip='Terminal Font: MesloLGS-NF-Regular 18'
+++ printf '%s\n' 'Terminal Font: MesloLGS-NF-Regular 18'
++ length='Terminal Font: MesloLGS-NF-Regular 18'
++ length=37
++ string='Terminal Font\e[0m\e[0m:\e[0m MesloLGS-NF-Regular 18'
++ string='[0m[33m\e[1mTerminal Font\e[0m\e[0m:\e[0m MesloLGS-NF-Regular 18'
++ printf '%b\n' '\e[33C[0m[33m\e[1mTerminal Font\e[0m\e[0m:\e[0m MesloLGS-NF-Regular 18\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info CPU cpu
++ [[ -n cpu ]]
++ subtitle=CPU
++ unset -v prin
++ get_cpu
++ case $os in
+++ sysctl -n machdep.cpu.brand_string
++ cpu='Apple M1 Max'
++ case $cpu_cores in
+++ sysctl -n hw.logicalcpu_max
++ cores=10
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cpu='Apple M1 Max'
++ cores=10
++ speed=
++ [[ on == \o\f\f ]]
++ [[ logical != \o\f\f ]]
++ [[ -n 10 ]]
++ case $os in
++ cpu='Apple M1 Max'
++ [[ on != \o\f\f ]]
++ [[ -n '' ]]
++ [[ off != \o\f\f ]]
++ [[ -n '' ]]
++ [[ -n cpu ]]
+++ trim 'Apple M1 Max'
+++ set -f
+++ set -- Apple M1 Max
+++ printf '%s\n' 'Apple M1 Max'
+++ set +f
++ output='Apple M1 Max'
++ [[ -n cpu ]]
++ [[ -n AppleM1Max ]]
++ prin CPU 'Apple M1 Max'
+++ trim CPU
+++ set -f
+++ set -- CPU
+++ printf '%s\n' CPU
+++ set +f
++ [[ -n CPU ]]
++ [[ -n Apple M1 Max ]]
++ [[ -n '' ]]
++ string='CPU: Apple M1 Max'
+++ trim 'CPU: Apple M1 Max'
+++ set -f
+++ set -- CPU: Apple M1 Max
+++ printf '%s\n' 'CPU: Apple M1 Max'
+++ set +f
++ string='CPU: Apple M1 Max'
+++ strip_sequences 'CPU: Apple M1 Max'
+++ strip='CPU: Apple M1 Max'
+++ strip='CPU: Apple M1 Max'
+++ strip='CPU: Apple M1 Max'
+++ strip='CPU: Apple M1 Max'
+++ strip='CPU: Apple M1 Max'
+++ strip='CPU: Apple M1 Max'
+++ printf '%s\n' 'CPU: Apple M1 Max'
++ length='CPU: Apple M1 Max'
++ length=17
++ string='CPU\e[0m\e[0m:\e[0m Apple M1 Max'
++ string='[0m[33m\e[1mCPU\e[0m\e[0m:\e[0m Apple M1 Max'
++ printf '%b\n' '\e[33C[0m[33m\e[1mCPU\e[0m\e[0m:\e[0m Apple M1 Max\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info GPU gpu
++ [[ -n gpu ]]
++ subtitle=GPU
++ unset -v prin
++ get_gpu
++ case $os in
++ [[ -f /Library/Caches/neofetch/gpu ]]
++ source /Library/Caches/neofetch/gpu
+++ gpu='Apple M1 Max'
++ [[ on == \o\f\f ]]
++ [[ -n '' ]]
++ [[ -n gpu ]]
+++ trim 'Apple M1 Max'
+++ set -f
+++ set -- Apple M1 Max
+++ printf '%s\n' 'Apple M1 Max'
+++ set +f
++ output='Apple M1 Max'
++ [[ -n gpu ]]
++ [[ -n AppleM1Max ]]
++ prin GPU 'Apple M1 Max'
+++ trim GPU
+++ set -f
+++ set -- GPU
+++ printf '%s\n' GPU
+++ set +f
++ [[ -n GPU ]]
++ [[ -n Apple M1 Max ]]
++ [[ -n '' ]]
++ string='GPU: Apple M1 Max'
+++ trim 'GPU: Apple M1 Max'
+++ set -f
+++ set -- GPU: Apple M1 Max
+++ printf '%s\n' 'GPU: Apple M1 Max'
+++ set +f
++ string='GPU: Apple M1 Max'
+++ strip_sequences 'GPU: Apple M1 Max'
+++ strip='GPU: Apple M1 Max'
+++ strip='GPU: Apple M1 Max'
+++ strip='GPU: Apple M1 Max'
+++ strip='GPU: Apple M1 Max'
+++ strip='GPU: Apple M1 Max'
+++ strip='GPU: Apple M1 Max'
+++ printf '%s\n' 'GPU: Apple M1 Max'
++ length='GPU: Apple M1 Max'
++ length=17
++ string='GPU\e[0m\e[0m:\e[0m Apple M1 Max'
++ string='[0m[33m\e[1mGPU\e[0m\e[0m:\e[0m Apple M1 Max'
++ printf '%b\n' '\e[33C[0m[33m\e[1mGPU\e[0m\e[0m:\e[0m Apple M1 Max\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Memory memory
++ [[ -n memory ]]
++ subtitle=Memory
++ unset -v prin
++ get_memory
++ case $os in
+++ sysctl -n hw.memsize
++ mem_total=65536
+++ vm_stat
+++ awk '/ wired/ { print $4 }'
++ mem_wired=168852.
+++ vm_stat
+++ awk '/ active/ { printf $3 }'
++ mem_active=1949484.
+++ vm_stat
+++ awk '/ occupied/ { printf $5 }'
++ mem_compressed=31063.
++ mem_compressed=31063.
++ mem_used=8396
++ [[ off == \o\n ]]
++ case $memory_unit in
++ memory='8396MiB / 65536MiB '
++ case $memory_display in
++ [[ -n '' ]]
++ [[ -n memory ]]
+++ trim '8396MiB / 65536MiB '
+++ set -f
+++ set -- 8396MiB / 65536MiB
+++ printf '%s\n' '8396MiB / 65536MiB'
+++ set +f
++ output='8396MiB / 65536MiB'
++ [[ -n memory ]]
++ [[ -n 8396MiB/65536MiB ]]
++ prin Memory '8396MiB / 65536MiB'
+++ trim Memory
+++ set -f
+++ set -- Memory
+++ printf '%s\n' Memory
+++ set +f
++ [[ -n Memory ]]
++ [[ -n 8396MiB / 65536MiB ]]
++ [[ -n '' ]]
++ string='Memory: 8396MiB / 65536MiB'
+++ trim 'Memory: 8396MiB / 65536MiB'
+++ set -f
+++ set -- Memory: 8396MiB / 65536MiB
+++ printf '%s\n' 'Memory: 8396MiB / 65536MiB'
+++ set +f
++ string='Memory: 8396MiB / 65536MiB'
+++ strip_sequences 'Memory: 8396MiB / 65536MiB'
+++ strip='Memory: 8396MiB / 65536MiB'
+++ strip='Memory: 8396MiB / 65536MiB'
+++ strip='Memory: 8396MiB / 65536MiB'
+++ strip='Memory: 8396MiB / 65536MiB'
+++ strip='Memory: 8396MiB / 65536MiB'
+++ strip='Memory: 8396MiB / 65536MiB'
+++ printf '%s\n' 'Memory: 8396MiB / 65536MiB'
++ length='Memory: 8396MiB / 65536MiB'
++ length=26
++ string='Memory\e[0m\e[0m:\e[0m 8396MiB / 65536MiB'
++ string='[0m[33m\e[1mMemory\e[0m\e[0m:\e[0m 8396MiB / 65536MiB'
++ printf '%b\n' '\e[33C[0m[33m\e[1mMemory\e[0m\e[0m:\e[0m 8396MiB / 65536MiB\e[0m '
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info cols
++ [[ -n '' ]]
++ unset -v prin
++ get_cols
++ local blocks blocks2 cols
++ [[ on == \o\n ]]
++ printf -v block_width %3s
++ (( block_range[0] ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '' 0 0 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   ' 1 1 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   [31m[41m   ' 2 2 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   [31m[41m   [32m[42m   ' 3 3 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   [31m[41m   [32m[42m   [33m[43m   ' 4 4 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   ' 5 5 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   ' 6 6 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   ' 7 7 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '' 8 8 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   ' 9 9 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   ' 10 10 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   ' 11 11 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   ' 12 12 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   ' 13 13 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   ' 14 14 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   ' 15 15 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ printf -v block_spaces %1s
++ [[ -n [30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m    ]]
++ cols+='[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [mnl'
++ [[ -n [38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m    ]]
++ cols+='[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [mnl'
++ cols='[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [mnl[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m'
++ cols='[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[33C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m'
++ (( info_height+=block_range[1]>7?block_height+3:block_height+2 ))
++ case $col_offset in
++ printf '\n\e[%bC%b\n\n' 33 '[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[33C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m'
++ unset -v blocks blocks2 cols
++ prin=1
++ [[ -n 1 ]]
++ return
++ dynamic_prompt
++ [[ ascii == \o\f\f ]]
++ [[ ascii != \a\s\c\i\i ]]
++ [[ ascii == \w\3\m ]]
++ (( lines=lines>info_height?lines-info_height+1:1 ))
++ printf -v nlines %1s
++ printf %b '\n'
++ [[ ascii == *w3m* ]]
++ err 'Neofetch command: /opt/homebrew/bin/neofetch -vv --config none'
+++ color 1
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 1
++ err+='[0m[31m[!]\e[0m Neofetch command: /opt/homebrew/bin/neofetch -vv --config none
+'
++ err 'Neofetch version: 7.1.0'
+++ color 1
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 1
++ err+='[0m[31m[!]\e[0m Neofetch version: 7.1.0
+'
++ [[ on == on ]]
++ printf %b '[0m[31m[!]\e[0m Info: Couldn'\''t detect Theme.
+[0m[31m[!]\e[0m Info: Couldn'\''t detect Icons.
+[0m[31m[!]\e[0m Neofetch command: /opt/homebrew/bin/neofetch -vv --config none
+[0m[31m[!]\e[0m Neofetch version: 7.1.0
+'
+[0m[31m[!][0m Info: Couldn't detect Theme.
+[0m[31m[!][0m Info: Couldn't detect Icons.
+[0m[31m[!][0m Neofetch command: /opt/homebrew/bin/neofetch -vv --config none
+[0m[31m[!][0m Neofetch version: 7.1.0
++ [[ off == on ]]
++ return 0
++ printf '\e[?25h\e[?7h'
